@@ -1,5 +1,5 @@
 const banco = new Array("joão", "ana", "renan");
-class RepositoryPessoa {
+class Pessoa {
     PegarTodos(){
         return banco
     }
@@ -21,4 +21,4 @@ class RepositoryPessoa {
     }
 }
 
-module.exports = RepositoryPessoa;
+module.exports = Pessoa;
