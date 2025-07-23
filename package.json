@@ -1,16 +1,18 @@
 {
-  "name": "exemplo",
+  "name": "api-node",
   "version": "1.0.0",
-  "description": "Minha primeira api em nodeJS",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch index.js",
-    "test": "jest --coverage"
+    "test": "jest test/* --coverage"
   },
-  "author": "Renan Ponick",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.3",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
     "jest": "^29.7.0"
   }
 }
